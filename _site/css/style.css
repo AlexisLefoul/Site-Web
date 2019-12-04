@@ -114,6 +114,15 @@ p {
   cursor: pointer;
 }
 
+.icon_bis {
+  width: 65%;
+  height: 65%;
+  padding: 15%;
+  margin-left: 20%;
+  transition: 0.3s ease-out !important;
+  cursor: pointer;
+}
+
 .icon:hover {
   transform: scale(1.2) !important;
   -webkit-transform: scale(1.2) !important;
@@ -190,7 +199,7 @@ p {
 }
 
 .modal-content {
-  background-color: #a7a7a7;
+  background-color: #c4c2c2;
   margin: 10% auto;
   padding: 10px;
   border: 1px solid #fefefe;
