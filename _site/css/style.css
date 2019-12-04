@@ -199,10 +199,10 @@ p {
 }
 
 .modal-content {
-  background-color: #c4c2c2;
+  background-color: #ebebeb;
   margin: 10% auto;
   padding: 10px;
-  border: 1px solid #fefefe;
+  border: 1px solid #000000;
   border-radius: 10px;
   width: 40%;
   height: 50%;
