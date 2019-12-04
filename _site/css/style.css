@@ -117,8 +117,8 @@ p {
 .icon_bis {
   width: 30%;
   height: 30%;
-  padding: 15%;
-  margin-left: 25%;
+  padding: 20px;
+  margin-left: 25px;
   transition: 0.5s ease-out !important;
   cursor: pointer;
 }
