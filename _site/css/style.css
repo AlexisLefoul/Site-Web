@@ -71,11 +71,11 @@ p {
   overflow: hidden;
   padding: 55px 55px 37px 55px;
 
-  background: #3afa4a;
-  background: -webkit-linear-gradient(top, #00f1b5, #3afa4a);
-  background: -o-linear-gradient(top, #00f1b5,  #3afa4a);
-  background: -moz-linear-gradient(top, #00f1b5,  #3afa4a);
-  background: linear-gradient(top, #00f1b5,  #3afa4a);
+  background: #1042e7;
+  background: -webkit-linear-gradient(top, #00f1b5, #1042e7);
+  background: -o-linear-gradient(top, #00f1b5,  #1042e7);
+  background: -moz-linear-gradient(top, #00f1b5,  #1042e7);
+  background: linear-gradient(top, #00f1b5,  #1042e7);
 }
 
 .logo {
