@@ -118,7 +118,7 @@ p {
   width: 30%;
   height: 30%;
   padding: 15px;
-  margin-left: 20px;
+  margin-left: 50px;
   transition: 0.5s ease-out !important;
   cursor: pointer;
 }
