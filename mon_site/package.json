@@ -1,7 +1,7 @@
 {
   "name": "ag",
   "version": "1.0.0",
-  "description": "Web site Aurélien GAUTHIER",
+  "description": "Web site Alexis LEFOUL",
   "scripts": {
     "build": "eleventy",
     "serve": "eleventy --serve",
