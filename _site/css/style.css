@@ -195,13 +195,13 @@ p {
   padding: 10px;
   border: 1px solid #fefefe;
   border-radius: 10px;
-  width: 50%;
-  height: 60%;
+  width: 20%;
+  height: 30%;
   overflow: hidden;
 }
 
 .close {
-  color: rgb(58, 57, 57);
+  color: rgb(255, 255, 255);
   font-size: 28px;
   font-weight: bold;
   float: right;
