@@ -1,235 +1,240 @@
 @font-face {
-  font-family: Poppins-Regular;
-  src: url("../fonts/poppins/Poppins-Regular.ttf");
+    font-family: Poppins-Regular;
+    src: url("../fonts/poppins/Poppins-Regular.ttf");
 }
 
 @font-face {
-  font-family: Poppins-Medium;
-  src: url("../fonts/poppins/Poppins-Medium.ttf");
+    font-family: Poppins-Medium;
+    src: url("../fonts/poppins/Poppins-Medium.ttf");
 }
 
 @font-face {
-  font-family: Poppins-Bold;
-  src: url("../fonts/poppins/Poppins-Bold.ttf");
+    font-family: Poppins-Bold;
+    src: url("../fonts/poppins/Poppins-Bold.ttf");
 }
 
 @font-face {
-  font-family: Poppins-SemiBold;
-  src: url("../fonts/poppins/Poppins-SemiBold.ttf");
+    font-family: Poppins-SemiBold;
+    src: url("../fonts/poppins/Poppins-SemiBold.ttf");
 }
 
 body,
 html {
-  height: 100%;
-  font-family: Poppins-Regular, sans-serif;
-  overflow: hidden;
+    height: 100%;
+    font-family: Poppins-Regular, sans-serif;
+    overflow: hidden;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 p {
-  color: #fff;
-  text-align: center;
+    color: #fff;
+    text-align: center;
 }
 
 .background {
-  width: 100%;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  background-image: url("../img/fond.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  z-index: 1;
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/fond.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
 }
 
 .background::before {
-  content: "";
-  display: block;
-  position: absolute;
-  opacity: 0.75;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: rgba(255, 255, 255, 0.9);
+    content: "";
+    display: block;
+    position: absolute;
+    opacity: 0.75;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .wrap {
-  width: 500px;
-  border-radius: 40%;
-  overflow: hidden;
-  padding: 55px 55px 37px 55px;
-
-  background: #1042e7;
-  background: -webkit-linear-gradient(top, #00f1b5, #1042e7);
-  background: -o-linear-gradient(top, #00f1b5,  #1042e7);
-  background: -moz-linear-gradient(top, #00f1b5,  #1042e7);
-  background: linear-gradient(top, #00f1b5,  #1042e7);
+    width: 500px;
+    border-radius: 40%;
+    overflow: hidden;
+    padding: 55px 55px 37px 55px;
+    background: #1042e7;
+    background: -webkit-linear-gradient(top, #00f1b5, #1042e7);
+    background: -o-linear-gradient(top, #00f1b5, #1042e7);
+    background: -moz-linear-gradient(top, #00f1b5, #1042e7);
+    background: linear-gradient(top, #00f1b5, #1042e7);
 }
 
 .logo {
-  font-size: 60px;
-  color: #333333;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 120px;
-  height: 120px;
-  border-radius: 45%;
-  background-color: #fff;
-  margin: 0 auto;
+    font-size: 60px;
+    color: #333333;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 45%;
+    background-color: #fff;
+    margin: 0 auto;
 }
 
 .title {
-  font-family: Poppins-Medium;
-  font-size: 30px;
-  color: #fff;
-  line-height: 1.2;
-  text-align: center;
-  text-transform: uppercase;
-  display: block;
+    font-family: Poppins-Medium;
+    font-size: 30px;
+    color: #fff;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
 }
 
 .icon {
-  width: 65px;
-  height: 65px;
-  padding: 15px;
-  margin-left: 20px;
-  transition: 0.3s ease-out !important;
-  cursor: pointer;
+    width: 65px;
+    height: 65px;
+    padding: 15px;
+    margin-left: 20px;
+    transition: 0.3s ease-out !important;
+    cursor: pointer;
 }
 
 .icon_bis {
-  width: 30%;
-  height: 30%;
-  padding: 20px;
-  margin-left: 25px;
-  transition: 0.2s ease-out !important;
-  cursor: pointer;
+    width: 30%;
+    height: 30%;
+    padding: 20px;
+    margin-left: 25px;
+    transition: 0.2s ease-out !important;
+    cursor: pointer;
 }
 
 .icon:hover {
-  transform: scale(1.2) !important;
-  -webkit-transform: scale(1.2) !important;
-  transition: 0.3s ease-in !important;
+    transform: scale(1.2) !important;
+    -webkit-transform: scale(1.2) !important;
+    transition: 0.3s ease-in !important;
 }
 
 .zoom {
-  transition: 0.2s ease-out !important;
-  cursor: pointer;
+    transition: 0.2s ease-out !important;
+    cursor: pointer;
 }
 
 .zoom:hover {
-  transform: scale(1.05) !important;
-  -webkit-transform: scale(1.05) !important;
-  transition: 0.2s ease-in !important;
+    transform: scale(1.05) !important;
+    -webkit-transform: scale(1.05) !important;
+    transition: 0.2s ease-in !important;
 }
 
 @media (max-width: 700px) {
-  .wrap {
-    padding: 55px 15px 37px 15px;
-    transition: 0.5s;
-  }
+    .wrap {
+        padding: 55px 15px 37px 15px;
+        transition: 0.5s;
+    }
 }
 
 @media (max-width: 550px) {
-  .wrap {
-    padding: 50px 10px 25px 10px;
-    transition: 0.5s;
-  }
+    .wrap {
+        padding: 50px 10px 25px 10px;
+        transition: 0.5s;
+    }
 }
+
 @media (max-width: 400px) {
-  .wrap {
-    padding: 10px 5px 15px 5px;
-    transition: 0.5s;
-  }
+    .wrap {
+        padding: 10px 5px 15px 5px;
+        transition: 0.5s;
+    }
 }
+
 
 /* Delay animation */
 
 .delay1 {
-  animation-duration: 1s;
-  animation-delay: 0.3s;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
 }
 
 .delay2 {
-  animation-duration: 1s;
-  animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
 }
 
 .delay3 {
-  animation-duration: 1s;
-  animation-delay: 0.7s;
+    animation-duration: 1s;
+    animation-delay: 0.7s;
 }
 
 .delay4 {
-  animation-duration: 1s;
-  animation-delay: 0.9s;
+    animation-duration: 1s;
+    animation-delay: 0.9s;
 }
 
 .animated {
-  animation-fill-mode: backwards !important;
+    animation-fill-mode: backwards !important;
 }
 
 .modal {
-  display: block;
-  position: fixed;
-  transform: scale(0);
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+    display: block;
+    position: fixed;
+    transform: scale(0);
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 .modal-content {
-  background-color: #ebebeb;
-  margin: 10% auto;
-  padding: 10px;
-  border: 3px solid #000000;
-  border-radius: 10px;
-  width: 40%;
-  height: 50%;
-  overflow: hidden;
+    background-color: #ebebeb;
+    margin: 10% auto;
+    padding: 10px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    width: 40%;
+    height: 50%;
+    overflow: hidden;
 }
 
 .close {
-  color: rgb(255, 255, 255);
-  font-size: 28px;
-  font-weight: bold;
-  float: right;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: bold;
+    float: right;
 }
 
 .close:hover,
 .close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .black-text {
-  color: #333333;
-  font-family: Poppins-Medium;
-  font-size: 30px;
-  line-height: 1.2;
-  text-align: center;
-  text-transform: uppercase;
-  display: block;
+    color: #333333;
+    font-family: Poppins-Medium;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+}
 
+.text {
+    font-size: 20px;
+    color: #444;
 }
