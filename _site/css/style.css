@@ -33,12 +33,6 @@ p {
     color: #fff;
     text-align: center;
 }
-h1 {
-    font-size: 150px;
-    background: -webkit-linear-gradient(#00f1b5, #1042e7);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-    }
 
 .background {
     width: 100%;
@@ -72,10 +66,14 @@ h1 {
 }
 
 .lettre {
-    font-size: 30px;
+    font-size: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 0px;
+    background: -webkit-linear-gradient(#00f1b5, #1042e7);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
 }
 
 
