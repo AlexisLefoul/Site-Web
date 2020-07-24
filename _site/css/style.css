@@ -71,18 +71,12 @@ h1 {
     background-color: rgba(110, 110, 110, 0.9);
 }
 
-.lettre_color {
-    font-size: 55px;
-    
-    border-radius: 35%;
-    overflow: hidden;
-    padding: 55px 55px 37px 55px;
-    background: #1042e7;
-    background: -webkit-linear-gradient(top, #00f1b5, #1042e7);
-    background: -o-linear-gradient(top, #00f1b5, #1042e7);
-    background: -moz-linear-gradient(top, #00f1b5, #1042e7);
-    background: linear-gradient(top, #00f1b5, #1042e7);
+.lettre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .logo {
     font-size: 60px;
