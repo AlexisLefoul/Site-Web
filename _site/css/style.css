@@ -33,6 +33,11 @@ p {
     color: #fff;
     text-align: center;
 }
+h1 {
+    background: -webkit-linear-gradient(#00f1b5, #1042e7);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+    }
 
 .background {
     width: 100%;
