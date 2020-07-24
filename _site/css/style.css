@@ -65,7 +65,7 @@ p {
     background-color: rgba(255, 255, 255, 0.9);
 }
 
-h1 {
+.lettre_color {
     font-size: 55px;
     border-radius: 35%;
     overflow: hidden;
