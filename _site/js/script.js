@@ -7,11 +7,11 @@ var span = document.getElementsByClassName("close")[0];
 btn.onclick = function() {
   modal.style.display="block";
   modal.style.transform = "scale(1)";
-  modal.style.transition = "0.5s";
+  modal.style.transition = "0.3s";
 };
 
 span.onclick = function() {
-  modal.style.transition = "0.5s";
+  modal.style.transition = "0.3s";
   modal.style.transform = "scale(0)";
 };
 
@@ -30,11 +30,11 @@ var span = document.getElementsByClassName("close2")[0];
 btn2.onclick = function() {
   modal2.style.display="block";
   modal2.style.transform = "scale(1)";
-  modal2.style.transition = "0.5s";
+  modal2.style.transition = "0.3s";
 };
 
 span.onclick = function() {
-  modal2.style.transition = "0.5s";
+  modal2.style.transition = "0.3s";
   modal2.style.transform = "scale(0)";
 };
 
