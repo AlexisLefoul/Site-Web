@@ -70,8 +70,6 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: auto;
-    margin-top: 0px;
     background: -webkit-linear-gradient(#00f1b5, #1042e7);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
