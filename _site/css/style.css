@@ -197,6 +197,8 @@ h1 {
 }
 
 .modal-content2 {
+    background-color: #ffffff7e;
+    border-radius: 10px;
     margin: 10% auto;
     padding: 10px;
     width: 40%;
