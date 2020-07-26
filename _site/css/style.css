@@ -125,26 +125,7 @@ h1 {
     transition: 0.2s ease-in !important;
 }
 
-@media (max-width: 700px) {
-    .wrap {
-        padding: 55px 15px 37px 15px;
-        transition: 0.5s;
-    }
-}
 
-@media (max-width: 550px) {
-    .wrap {
-        padding: 50px 10px 25px 10px;
-        transition: 0.5s;
-    }
-}
-
-@media (max-width: 400px) {
-    .wrap {
-        padding: 10px 5px 15px 5px;
-        transition: 0.5s;
-    }
-}
 
 
 /* Delay animation */
