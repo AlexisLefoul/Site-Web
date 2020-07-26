@@ -30,7 +30,7 @@ a {
 }
 
 p {
-    color: rgb(155, 151, 151);
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -203,6 +203,9 @@ h1 {
     width: 40%;
     height: 50%;
     overflow: hidden;
+}
+
+.posInModal-content2 {
     display: flex;
     justify-content: center;
     align-items: center;
